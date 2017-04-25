@@ -27,7 +27,7 @@ return array(
     'version' => '0.0.1',
     'author' => 'Open Assessment Technologies SA',
     'requires' => array(
-        'tao' => '>=7.6.0',
+        'tao' => '>=9.0.0',
         'taoRestAPI' => '>=0.0.1',
         'taoItems' => '>=2.20.1',
     ),
@@ -47,9 +47,6 @@ return array(
 
         #BASE URL (usually the domain root)
         'BASE_URL' => ROOT_URL . 'taoItemRestApi/',
-
-        #BASE WWW required by JS
-        'BASE_WWW' => ROOT_URL . 'taoItemRestApi/views/'
     ),
     'extra' => array(
         'structures' => dirname(__FILE__) . DIRECTORY_SEPARATOR . 'controller' . DIRECTORY_SEPARATOR . 'structures.xml',
